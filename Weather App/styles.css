@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image:url(./imageedit_2_5166239908.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    background-image: linear-gradient(transparent);
+    background-color: #010101;
+    /* background: linear-gradient(transparent,black,black);  */
+    opacity: 0.8;
+     /* height: 100%; */
+    height: 280px;
+    width: 400px;
+    border-radius: 5%;
+}
+
+.cityInput{
+    border-radius: 12px;
+}
+input{
+    border: none;
+    padding: 8px;
+    padding-top: 7px;
+}
+
+.search{
+border-radius: 45%;
+padding: 15px;
+}
